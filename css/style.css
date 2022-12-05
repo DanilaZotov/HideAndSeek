@@ -149,12 +149,59 @@ table {
     padding-top: 30px;
 }
 
-/* Header styles end */
+.header__logo {
+    flex-grow: 0;     /* do not grow   - initial value: 0 */
+    flex-shrink: 0;   /* do not shrink - initial value: 1 */
+    flex-basis: 25em;
+}
 
-/* Intro styles start */
+.header__logo-pic {
+    width: 180px;
+    height: 70px;
+}
 
-.intro {
-    height: 757px;
+.search-bar {
+    width: 100%;
+	display: flex;
+    width: 800px;
+    height: 40px;
+	align-items: center;
+	padding-left: 2rem;
+	background-color: white;
+	border-radius: 1rem;
+	border-right: none;
+}
+
+.search-bar input {
+    padding-left: 10px;
+    height: 90%;
+	width: 100%;
+	flex: 1 0 15rem;
+	display: flex;
+	outline: none;
+	border: none;
+	font: 400;
+	font-size: 21px;
+}
+
+.search-bar button {
+    width: 130px;
+    height: 100%;
+    background: #373737;
+    color: white;
+	border: none;
+	border-radius: 0 1rem 1rem 0;
+	font-weight: 400;
+	font-size: 21px;
+	cursor: pointer;
+	transition: all 0.3s;
+	text-align: center;
 }
 
 /* Header styles end */
+
+/* Main styles end */
+
+/* Main styles end */
+
+

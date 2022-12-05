@@ -37,7 +37,9 @@ function App() {
 
     <main className="main">
       <section className="intro">
-        <div className='waveheader'></div>
+        <div className='waveheader'>
+          
+        </div>
       </section>
     </main>
     </>
