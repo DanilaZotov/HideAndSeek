@@ -4,7 +4,7 @@ import * as React from 'react';
 function App() {
   return (
     <>
-    <header className='header'>
+    <header className='header header-background'>
       <div className="wrapper">
         <div className="header__wrapper">
           <div className="header__logo">
@@ -19,16 +19,16 @@ function App() {
             <input type="text" placeholder="Гипоаллергенные собаки"/>
             <button type="submit"><a>Найти</a></button>
           </div>
-          <a className='create-animal-link'>
+          <a href="/" className='create-animal-link'>
             <img src="./createanimal.svg" alt="" className='' />
           </a>
-          <a className='articles-link-pic'>
+          <a href="/" className='articles-link-pic'>
             <img src="./articles.svg" alt="" className='' />
           </a>
-          <a className='messages-link-pic'>
+          <a href="/" className='messages-link-pic'>
             <img src="./message.svg" alt="" className='' />
           </a>
-          <a className='profile-link-pic'>
+          <a href="/" className='profile-link-pic'>
             <img src="./profile.svg" alt="" className='' />
           </a>
         </div>
@@ -38,7 +38,7 @@ function App() {
     <main className="main">
       <section className="intro">
         <div className='waveheader'>
-          
+
         </div>
       </section>
     </main>

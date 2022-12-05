@@ -137,9 +137,12 @@ table {
     margin: 0 auto;
 }
 
-.header {
-    background-color: #F2C198;
+header {
+    background-image: url("./public/header-background.svg");
+    height: 185px;
 }
+
+
 
 .header__wrapper {
     display: flex;
@@ -147,12 +150,7 @@ table {
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 30px;
-}
-
-.header__logo {
-    flex-grow: 0;     /* do not grow   - initial value: 0 */
-    flex-shrink: 0;   /* do not shrink - initial value: 1 */
-    flex-basis: 25em;
+    padding-bottom: 30px;
 }
 
 .header__logo-pic {
