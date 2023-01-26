@@ -1,0 +1,45 @@
+.profileInfo {
+    background-color: #F2C198;
+    height: 1000px;
+    margin-top: 20px;
+}
+
+.profileContainer {
+    background-color: #F7D4B6;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.cirleAvatar {
+    background-color: #BB8484;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.nickname {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.fullName {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+.contacts {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+.bttnProfile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

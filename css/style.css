@@ -1,148 +1,29 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+/* not found style start */
 
-/* montserrat-600 - latin_cyrillic */
-@font-face {
+.notFound {
+    background-color: #F2C198;
+    height: 630px;
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    src: local(''),
-         url('../fonts/montserrat-v25-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v25-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* montserrat-700 - latin_cyrillic */
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-size: 52px;
     font-weight: 700;
-    src: local(''),
-         url('../fonts/montserrat-v25-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v25-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* montserrat-900 - latin_cyrillic */
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    src: local(''),
-         url('../fonts/montserrat-v25-latin_cyrillic-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v25-latin_cyrillic-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  @font-face {
-    font-family: "LatoRegular";
-    src: url("../fonts/LatoRegular/LatoRegular.eot");
-    src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
-    url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    padding: 50px;
 }
 
-@font-face {
-    font-family: "LatoBold";
-    src: url("../fonts/LatoBold/LatoBold.eot");
-    src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/LatoBold/LatoBold.woff") format("woff"),
-    url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "LatoItalic";
-    src: url("../fonts/LatoItalic/LatoItalic.eot");
-    src: url("../fonts/LatoItalic/LatoItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/LatoItalic/LatoItalic.woff") format("woff"),
-    url("../fonts/LatoItalic/LatoItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "LatoLight";
-    src: url("../fonts/LatoLight/LatoLight.eot");
-    src: url("../fonts/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/LatoLight/LatoLight.woff") format("woff"),
-    url("../fonts/LatoLight/LatoLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "LatoBoldItalic";
-    src: url("../fonts/LatoBoldItalic/LatoBoldItalic.eot");
-    src: url("../fonts/LatoBoldItalic/LatoBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/LatoBoldItalic/LatoBoldItalic.woff") format("woff"),
-    url("../fonts/LatoBoldItalic/LatoBoldItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "LatoLightItalic";
-    src: url("../fonts/LatoLightItalic/LatoLightItalic.eot");
-    src: url("../fonts/LatoLightItalic/LatoLightItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/LatoLightItalic/LatoLightItalic.woff") format("woff"),
-    url("../fonts/LatoLightItalic/LatoLightItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
+/* not found style end */
 
 /* Header styles start */
 
 .wrapper {
     max-width: 1320px;
     margin: 0 auto;
+    position: relative;
 }
 
 header {
-    background-image: url("./public/header-background.svg");
+    background: url("./public/header-background.svg") no-repeat 50% 50%, #F2C198 ;
     height: 185px;
+    margin-bottom: 34px;
 }
-
-
 
 .header__wrapper {
     display: flex;
@@ -196,10 +77,332 @@ header {
 	text-align: center;
 }
 
+.NavLink {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* Header styles end */
 
-/* Main styles end */
+/* Main styles start */
+
+.intro {
+    margin-top: 20px;
+    background-color: #F2C198;
+    height: 572px;
+    width: 100%;
+}
+
+.waveheader {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 72px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.search-bar-intro {
+    width: 100%;
+	display: flex;
+    width: 565px;
+    height: 40px;
+	align-items: center;
+	padding-left: 2rem;
+	background-color: white;
+	border-radius: 1rem;
+	border-right: none;
+    margin-bottom: 40px;
+}
+
+.search-bar-intro input {
+    padding-left: 10px;
+    height: 90%;
+	width: 100%;
+	flex: 1 0 15rem;
+	display: flex;
+	outline: none;
+	border: none;
+	font: 400;
+	font-size: 21px;
+}
+
+.search-bar-intro button {
+    width: 130px;
+    height: 100%;
+    background: #373737;
+    color: white;
+	border: none;
+	border-radius: 0 1rem 1rem 0;
+	font-weight: 400;
+	font-size: 21px;
+	cursor: pointer;
+	transition: all 0.3s;
+	text-align: center;
+}
+
+/* main intro start */
+
+.lookForShelter {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+.lookForShelter a {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.lookForShelter img {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.linkToAnimalList{
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+}
+
+.linkToAnimalList a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.arrowImg { 
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.girlWithDogImg {
+    background-image: url("/public/backGirlWithDog.svg");
+    background-repeat: no-repeat;
+}
+
+/* main intro end */
+
+/* Main active search start */
+
+.quickFilterOnMain {
+    background-color: #F5ECE3;
+    height: 750px;
+}
+
+.wavheader_quickFilter {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.allAnimals {
+    padding-top: 60px;
+}
+
+/* Main active search end */
+
+/* Main articles start */
+
+.popularArticles {
+    background-color: #F2C198;
+    height: 880px;
+}
+
+.popularArticle_topLeft {
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: #F7D4B6;
+    width: 660px;
+    height: 292px;
+}
+
+.popularArticle_topLeft_img {
+    float: left;
+    padding-right: 20px;
+}
+
+.popularArticle_bottomLeft_img {
+    float: left;
+    padding-right: 20px;
+}
+
+
+.popularArticle_heading {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.popularArticle_paragraph {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+    padding: 10px;
+}
+
+.popularArticle_paragraph_right {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.popularArticle_bottomLeft {
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: #F7D4B6;
+    width: 660px;
+    height: 292px;
+}
+
+.popularArticle_right {
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: #F7D4B6;
+    width: 460px;
+    height: 614px;
+}
+
+.popularArticle_likes {
+    float: left;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+    margin-left: 20px;
+}
+
+.like_svg {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.allArticlesButton {
+    padding-top: 80px;
+}
+
+/* Main articles end */
+
+/* main animalForm start */
+
+.animalFormLoad {
+    background-color: #BB8484;
+    height: 980px;
+}
+
+.wavheader_animalForm {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.animalForm_h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.animalForm_inputType {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 424px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 41px;
+    border: none;
+}
+
+.animalForm_inputType:focus {
+    outline: none !important;
+    border-color: #3a3a3a;
+    box-shadow: 0 0 20px #3a3a3a;
+    
+}
+
+.animalForm_selectSpecies {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 464px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 41px;
+    border: none;
+}
+
+.animalForm_selectAge {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 128px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: none;
+}
+
+.animalForm_selectAge:focus {
+    outline: none !important;
+    border-color: #3a3a3a;
+    box-shadow: 0 0 20px #3a3a3a;
+}
+
+.selectLabel {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.animalPhoto img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.animalForm_inputDescription {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 1054px;
+    height: 160px;
+    border-radius: 25px;
+    padding-left: 41px;
+    padding-top: 21px;
+    border: none;
+}
+
+.animalForm_inputDescription:focus {
+    outline: none !important;
+    border-color: #3a3a3a;
+    box-shadow: 0 0 20px #3a3a3a;
+    
+}
+
+.loadAnimal {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* main animalForm end */
 
 /* Main styles end */
 
+/* Footer styles start */
 
+footer {
+    background-color: #F7D4B6;
+    height: 160px;
+}
+
+
+/* Footer styles end */

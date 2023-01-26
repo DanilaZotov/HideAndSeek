@@ -1,0 +1,111 @@
+/* filter style start */
+
+.filterAnimals {
+    background-color: #F2C198;
+    height: 330px;
+    width: auto;
+    margin-top: 22px;
+}
+
+.filter_waveheader {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.filterSelect {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 328px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 17px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.filterSelect:focus {
+    outline: none !important;
+    border-color: #3a3a3a;
+    box-shadow: 0 0 20px #3a3a3a;
+}
+
+.filterCheckbox {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 50px;
+    height: 20px;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+    accent-color: #000000;
+}
+
+.filterAge1 {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.filterAge2 {
+    font-family: 'Lato';
+    font-size: 21px;
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+
+.filterLabel {
+    font-family: 'Lato';
+    font-size: 21px;
+}
+
+/* filter style end */
+
+/* filter list start */
+
+.listOfAnimals {
+    height: 1000px;
+    background-color: #F5ECE3;
+}
+
+.animalCard {
+    width: auto;
+    height: 200px;
+    background: url("./public/animalCard.svg") no-repeat #BB8484;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+
+.cardimage {
+    float: left;
+}
+
+.cardHeader {
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 600px;
+    color: #F6F6F6;
+    margin-left: 260px;
+    padding-top: 15px;
+}
+
+.fullCardImg {
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+/* filter list end */

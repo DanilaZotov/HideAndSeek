@@ -1,0 +1,73 @@
+.fullAnimalInfo {
+    background-color: #F2C198;
+    height: 1500px;
+    margin-top: 20px;
+}
+
+.animalName {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 92px;
+}
+
+.bigPicture {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.advAuthor {
+    background-color: #F7D4B6;
+    width: 648px;
+    height: 190px;
+    border-radius: 25px;
+}
+
+.authorName {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 21px;
+    margin-left: 100px;
+}
+
+.otherAdvByAuthor {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+    color: #3b3b3b;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-left: 50px;
+}
+
+.authorImgs {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.animalStats {
+    margin-top: 30px;
+    padding-top: 40px;
+    background-color: #F7D4B6;
+    height: 490px;
+    width: 648px;
+    border-radius: 25px;
+    line-height: 2.5;
+}
+
+.animalStatsLineText {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.AuthorComment {
+    height: 200px;
+    width: auto;
+    background-color: #F7D4B6;
+    border-radius: 25px;
+    line-height: 2;
+    margin-top: 30px;
+    padding-left: 30px;
+}

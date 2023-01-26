@@ -1,0 +1,42 @@
+.article_wrapper {
+    background-color: #F2C198;
+    height: 2100px;
+    width: auto;
+    margin-top: 22px;
+}
+
+.content_list {
+    width: 648px;
+    height: 292px;
+    background-color: #F7D4B6;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-size: 24;
+    line-height: 2.5;
+    padding-left: 40px;
+    
+}
+
+.likesDislikes {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-size: 24;
+    display: flex;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 81px;
+    background-color: #F7D4B6;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+.otherArticle {
+    margin-left: 130px;
+}
