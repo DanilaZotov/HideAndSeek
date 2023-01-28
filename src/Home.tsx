@@ -5,6 +5,8 @@ import Box from '@mui/material/Box';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
+import kruzhopel from '/public/kruzhopel.svg'
+
 export function Home() {
   
     return (
@@ -28,7 +30,7 @@ export function Home() {
                   <button type="submit"><a>Найти</a></button>
                 </div>
                 <div className='lookForShelter'>
-                  <a href="/" className='lookForShelter_text'>Ищу приют питомцу</a>
+                  <Link to="./animalList" className='lookForShelter_text'>Ищу приют питомцу</Link>
                   <a href="/"><img src='./arrow.svg' className='arrowRight'></img></a>
                 </div>
                 <Grid container spacing={1}>
@@ -42,6 +44,7 @@ export function Home() {
                         <img src='./arrowDown.svg'></img>
                       </a>
                     </div>
+                    
                   </Grid>
                   <Grid item xs={4}>
                   </Grid>
@@ -92,15 +95,16 @@ export function Home() {
                   <img src='popularArticle_topLeft.svg' className='popularArticle_topLeft_img'></img>
                   <p className='popularArticle_heading'>Как садовая улитка может убить вашу собаку</p>
                   <p className='popularArticle_paragraph'>Некоторые владельцы не видят опасности в том, что их собаки время от времени едят улиток. Дескать, питомец...</p>
-                  <div>
+                  <div className='LikesContainer'>
                     <p className='popularArticle_likes'>14 <img src='Ei-like.svg' className='like_svg'></img></p>
                   </div>
+                  
                 </div>
                 <div className='popularArticle_bottomLeft'>
                   <img src='popularArticle_bottomLeft.svg' className='popularArticle_bottomLeft_img'></img>
                   <p className='popularArticle_heading'>Как назвать собаку девочку маленькой породы: имена, клички</p>
                   <p className='popularArticle_paragraph'>Если вы определенно решили приобрести маленькую собаку девочку, то наверняка остро стоит...</p>
-                  <div>
+                  <div className='LikesContainer'>
                     <p className='popularArticle_likes'>14 <img src='Ei-like.svg' className='like_svg'></img></p>
                   </div>
                 </div>
@@ -110,7 +114,7 @@ export function Home() {
                 <img src='popularArticle_right.svg' width={460}  className='popularArticle_right_img'></img>
                 <p className='popularArticle_heading'>Как назвать собаку девочку маленькой породы: имена, клички</p>
                 <p className='popularArticle_paragraph_right'>Если вы определенно решили приобрести маленькую собаку девочку, то наверняка остро стоит...</p>
-                <div>
+                <div className='LikesContainer'>
                   <p className='popularArticle_likes'>14 <img src='Ei-like.svg' className='like_svg'></img></p>
                 </div>
               </div>

@@ -13,8 +13,24 @@ import multiHomster from '/public/multiHomster.svg';
 import dmButton from '/public/dmButton.svg'
 import callButton from '/public/dmButton.svg'
 
+import doges1 from '/public/doges.png'
+import Bella from '/DogsPics/Bella.png';
+import Dana from '/DogsPics/Dana.png';
+import Sema from '/DogsPics/Sema.png';
+import Max from '/DogsPics/Max.png';
+import Belka from '/DogsPics/Belka.png';
+import Fox from '/DogsPics/Fox.png';
+import Michelle from '/DogsPics/Michelle.png';
+
 export function AnimalDescription() {
-    
+
+    let animals: any[] = [
+        {img: doges1, name: 'Рэкс', age: '2 - 3 года',color: 'Чепраный окрас', sex: 'Мальчик', vax: 'Привит'},
+        {img: Bella, name: 'Бэлла', age: '0,5 - 1 года',color: 'Черно-белый окрас', sex: 'Девочка', vax: 'Не привита'},
+        {img: Dana, name: 'Дана', age: '5 - 10 лет',color: 'Волчий окрас', sex: 'Девочка', vax: 'Не привита'},
+        {img: Max, name: 'Макс', age: '2 - 5 лет',color: 'Светлый окрас', sex: 'Мальчик', vax: 'Привит'},
+      ];
+
     return (
     <>
     <main>
@@ -23,9 +39,13 @@ export function AnimalDescription() {
                 <Grid container spacing={3}>
                     <Grid item xs={1}></Grid>
                     <Grid item xs={5}>
-                        <h1 className='animalName'>Сирийский хомяк "Кирюша"</h1>
-                        <img src={homster} className='bigPicture' width={324}></img>
-                        <img src={multiHomster}  width={524}></img>
+                        
+                            <div>
+                                <h1 className='animalName'>{animals[0].name}</h1>
+                                <img src={animals[0].img} className='bigPicture'></img>
+                            </div>
+                            
+                        
                     </Grid>
                     <Grid item xs={5}>
                         <div className='advAuthor'>
@@ -57,14 +77,14 @@ export function AnimalDescription() {
                                             <p className='authorName'>Тип</p>
                                         </Grid>
                                         <Grid item xs={6}>
-                                            <p className='animalStatsLineText'>Сирийский</p>
-                                            <p className='animalStatsLineText'>Персиковый</p>
-                                            <p className='animalStatsLineText'>Кирюша</p>
-                                            <p className='animalStatsLineText'>Мальчик</p>
-                                            <p className='animalStatsLineText'>1 год 2 месяца</p>
+                                            <p className='animalStatsLineText'>---</p>
+                                            <p className='animalStatsLineText'>{animals[0].color}</p>
+                                            <p className='animalStatsLineText'>{animals[0].name}</p>
+                                            <p className='animalStatsLineText'>{animals[0].sex}</p>
+                                            <p className='animalStatsLineText'>{animals[0].age}</p>
                                             <p className='animalStatsLineText'>--</p>
-                                            <p className='animalStatsLineText'>100г</p>
-                                            <p className='animalStatsLineText'>Хомяк</p>
+                                            <p className='animalStatsLineText'>--</p>
+                                            <p className='animalStatsLineText'>Собака</p>
                                         </Grid>
                                     </Grid>
                                 </Box>
@@ -78,10 +98,7 @@ export function AnimalDescription() {
                         <Grid item xs={1}></Grid>
                         <Grid item xs={10}>
                             <div className='AuthorComment'>
-                                <p className='authorName'>Комментарий продавца</p>
-                                <p className='animalStatsLineText'> продам Сирийского хомячка. Мальчик.</p>
-                                <p className='animalStatsLineText'> Окрас персиковый </p>
-                                <p className='animalStatsLineText'> Пиво не пьет </p>
+                                
                             </div>
                         </Grid>
                         <Grid item xs={1}></Grid>

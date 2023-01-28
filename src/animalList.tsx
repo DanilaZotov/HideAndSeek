@@ -5,8 +5,32 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import { AnimalDescription } from './AnimalDescription';
+
+import doges1 from '/public/doges.png'
+import Bella from '/DogsPics/Bella.png';
+import Dana from '/DogsPics/Dana.png';
+import Sema from '/DogsPics/Sema.png';
+import Max from '/DogsPics/Max.png';
+import Belka from '/DogsPics/Belka.png';
+import Fox from '/DogsPics/Fox.png';
+import Michelle from '/DogsPics/Michelle.png';
+
 
 export function AnimalList() {
+    let animalsLeft: any[] = [
+        {img: doges1, name: 'Рэкс', age: '2 - 3 года',color: 'Чепраный окрас', sex: 'Мальчик', vax: 'Привит'},
+        {img: Bella, name: 'Бэлла', age: '0,5 - 1 года',color: 'Черно-белый окрас', sex: 'Девочка', vax: 'Не привита'},
+        {img: Dana, name: 'Дана', age: '5 - 10 лет',color: 'Волчий окрас', sex: 'Девочка', vax: 'Не привита'},
+        {img: Max, name: 'Макс', age: '2 - 5 лет',color: 'Светлый окрас', sex: 'Мальчик', vax: 'Привит'},
+      ];
+
+      let animalsRight: any[] = [
+        {img: Sema, name: 'Сема', age: '1,5 года',color: 'Оранжевый окрас', sex: 'Мальчик', vax: 'Привит'},
+        {img: Belka, name: 'Белка', age: '1 год',color: 'Белый окрас', sex: 'Девочка', vax: 'Привита'},
+        {img: Michelle, name: 'Мишель', age: '0.7 года',color: 'Черный окрас', sex: 'Девочка', vax: 'Привита'},
+        {img: Fox, name: 'Фокс', age: '1,5 года',color: 'Коричневый окрас', sex: 'Мальчик', vax: 'Привит'},
+      ];
     
     return (
     <>
@@ -62,15 +86,60 @@ export function AnimalList() {
             <Box sx={{ flexGrow: 1 }}>
                 <Grid container spacing={3}>
                     <Grid item xs={1}></Grid>
-                    <Grid item xs={10}>
-                        <Link to={'./AnimalDescription'}><img src='./fullCard.svg' width={1220} className='fullCardImg'></img></Link>
-                        <img src='./fullCard.svg' width={1220} className='fullCardImg'></img>
-                        <img src='./fullCard.svg' width={1220} className='fullCardImg'></img>
-                        <img src='./fullCard.svg' width={1220} className='fullCardImg'></img>
+                    <Grid item xs={5}>
+                    {animalsLeft.map(animal => 
+                        <div className='animalCard'>
+                            <div className='animalCardinner'>
+                                <img src={animal.img} className='cardImg'></img>   
+                            </div>
+                            <div className='animalCardinner'>
+                                <div className='animalCardInnerInner'>
+                                    <h1 className='cardHeader'>{animal.name}</h1>
+                                    <p className='cardInfoLeft'>{animal.age}</p>
+                                    <p className='cardInfoLeft'>{animal.color}</p>
+                                </div>
+                                <div className='animalCardInnerInner'>
+                                    <p className='cardInfoRight'>{animal.sex}</p>
+                                    <p className='cardInfoRight'>{animal.vax}</p>
+                                </div>
+                                <Link to = {"./AnimalDescription"} className='LinkDecoration'>
+                                <div className='animalCardUnderLink'>
+                                    Узнать больше
+                                </div>
+                                </Link>
+                            </div>
+                        </div>
+                    )}
+                        
+                    </Grid>
+                    <Grid item xs={5}>
+                    {animalsRight.map(animal => 
+                        <div className='animalCard'>
+                            <div className='animalCardinner'>
+                                <img src={animal.img} className='cardImg'></img>   
+                            </div>
+                            <div className='animalCardinner'>
+                                <div className='animalCardInnerInner'>
+                                    <h1 className='cardHeader'>{animal.name}</h1>
+                                    <p className='cardInfoLeft'>{animal.age}</p>
+                                    <p className='cardInfoLeft'>{animal.color}</p>
+                                </div>
+                                <div className='animalCardInnerInner'>
+                                    <p className='cardInfoRight'>{animal.sex}</p>
+                                    <p className='cardInfoRight'>{animal.vax}</p>
+                                </div>
+                                <Link to = {"./AnimalDescription"} className='LinkDecoration'>
+                                <div className='animalCardUnderLink'>
+                                    Узнать больше
+                                </div>
+                                </Link>
+                            </div>
+                        </div>
+                    )}   
                     </Grid>
                     <Grid item xs={1}></Grid>
                 </Grid>    
-            </Box>         
+            </Box>        
         </section>
     </main>
     <footer>

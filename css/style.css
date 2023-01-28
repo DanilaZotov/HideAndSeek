@@ -182,6 +182,7 @@ header {
 .girlWithDogImg {
     background-image: url("/public/backGirlWithDog.svg");
     background-repeat: no-repeat;
+    padding-top: 75px;
 }
 
 /* main intro end */
@@ -244,7 +245,7 @@ header {
     font-family: 'Lato';
     font-weight: 400;
     font-size: 21px;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 .popularArticle_paragraph_right {
@@ -271,8 +272,14 @@ header {
     height: 614px;
 }
 
+
+
+.LikesContainer{
+    text-align: center;;
+}
+
 .popularArticle_likes {
-    float: left;
+    vertical-align:middle;
     font-family: 'Lato';
     font-weight: 400;
     font-size: 21px;
@@ -280,9 +287,9 @@ header {
 }
 
 .like_svg {
+    vertical-align:middle;
     width: 35px;
     height: 35px;
-    margin-left: 10px;
 }
 
 .allArticlesButton {
