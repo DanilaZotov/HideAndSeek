@@ -15,6 +15,10 @@ import Max from '/DogsPics/Max.png';
 import Belka from '/DogsPics/Belka.png';
 import Fox from '/DogsPics/Fox.png';
 import Michelle from '/DogsPics/Michelle.png';
+import Lexus from '/DogsPics/Lexus.png';
+import Liberty from '/DogsPics/Liberty.png';
+import Sheda from '/DogsPics/Sheda.png';
+import Risya from '/DogsPics/Risya.png';
 
 
 export function AnimalList() {
@@ -23,6 +27,8 @@ export function AnimalList() {
         {img: Bella, name: 'Бэлла', age: '0,5 - 1 года',color: 'Черно-белый окрас', sex: 'Девочка', vax: 'Не привита'},
         {img: Dana, name: 'Дана', age: '5 - 10 лет',color: 'Волчий окрас', sex: 'Девочка', vax: 'Не привита'},
         {img: Max, name: 'Макс', age: '2 - 5 лет',color: 'Светлый окрас', sex: 'Мальчик', vax: 'Привит'},
+        {img: Lexus, name: 'Лексус', age: '2 лет',color: 'Темный окрас', sex: 'Мальчик', vax: 'Привит'},
+        {img: Sheda, name: 'Шеда', age: '2 лет',color: 'Бело-Серый окрас', sex: 'Девочка', vax: 'Привит'},
       ];
 
       let animalsRight: any[] = [
@@ -30,6 +36,8 @@ export function AnimalList() {
         {img: Belka, name: 'Белка', age: '1 год',color: 'Белый окрас', sex: 'Девочка', vax: 'Привита'},
         {img: Michelle, name: 'Мишель', age: '0.7 года',color: 'Черный окрас', sex: 'Девочка', vax: 'Привита'},
         {img: Fox, name: 'Фокс', age: '1,5 года',color: 'Коричневый окрас', sex: 'Мальчик', vax: 'Привит'},
+        {img: Liberty, name: 'Либерти', age: '3 года',color: 'Коричневый окрас', sex: 'Девочка', vax: 'Привита'},
+        {img: Risya, name: 'Рыся', age: '5 лет',color: 'Коричневый окрас', sex: 'Девочка', vax: 'Привита'},
       ];
     
     return (

@@ -292,8 +292,27 @@ header {
     height: 35px;
 }
 
-.allArticlesButton {
-    padding-top: 80px;
+.blackActionButtonArticles {
+    width: 424px;
+    height: 52px;
+    background-color: #373737;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    transition: color 200ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.blackActionButtonArticles:hover,
+.blackActionButtonArticles:focus {
+  background-color: #3d3d3d;
 }
 
 /* Main articles end */
@@ -395,9 +414,27 @@ header {
     
 }
 
-.loadAnimal {
+.blackActionButton {
+    width: 424px;
+    height: 52px;
+    background-color: #373737;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 24px;
     margin-top: 60px;
     margin-bottom: 60px;
+    cursor: pointer;
+    transition: color 200ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.blackActionButton:hover,
+.blackActionButton:focus {
+  background-color: #3d3d3d;
 }
 
 /* main animalForm end */

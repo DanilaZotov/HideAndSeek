@@ -52,12 +52,11 @@ export function AnimalDescription() {
                             <Box sx={{ flexGrow: 1}}>
                                 <Grid container spacing={3}>
                                     <Grid item xs={6}>
-                                        <p className='authorName'>Юлия Суханова</p>
+                                        <p className='authorName'>Приют "Добрый дом" Новосибирск</p>
                                         <a href='/'><img src={ dmButton } className='authorImgs'></img></a>
                                     </Grid>
                                     <Grid item xs={6}>
                                         <a href='/' className='otherAdvByAuthor'>Другие объявления</a>
-                                        <a href='/'><img src={ callButton } className='authorImgs'></img></a>
                                     </Grid>
                                 </Grid>
                             </Box>

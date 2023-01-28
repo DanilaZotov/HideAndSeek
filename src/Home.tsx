@@ -127,7 +127,13 @@ export function Home() {
           <Box sx={{ flexGrow: 1 }}>
             <Grid className='allArticlesButton' container spacing={3}>
               <Grid item xs={4}></Grid>
-              <Grid item xs={4}><Link to="./Articles" className='NavLink'><img src="Основная кнопка.svg"></img></Link></Grid>
+              <Grid item xs={4}>
+                <Link to="./Articles" className='NavLink'>
+                  <button className='blackActionButtonArticles'>
+                        Все статьи
+                  </button>
+                </Link>
+              </Grid>
               <Grid item xs={4}></Grid>
             </Grid>
           </Box>
@@ -154,35 +160,37 @@ export function Home() {
                       <div>
                         <h1 className='animalForm_h1'>Возраст</h1>
                         <select className='animalForm_selectAge' id='yearSelect'>
-                          <option value="0">1</option>
-                          <option value="1">2</option>
-                          <option value="2">3</option>
-                          <option value="3">4</option>
-                          <option value="4">5</option>
-                          <option value="5">6</option>
-                          <option value="6">7</option>
-                          <option value="7">8</option>
-                          <option value="8">9</option>
-                          <option value="9">10</option>
-                          <option value="10">11</option>
-                          <option value="11">12</option>
-                          <option value="12">13</option>
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
                         </select>
                         <label className='selectLabel' htmlFor='yearSelect' >Лет</label> 
-                        <select className='animalForm_selectAge'  id='monthSelect'>
-                          <option value="0">1</option>
-                          <option value="1">2</option>
-                          <option value="2">3</option>
-                          <option value="3">4</option>
-                          <option value="4">5</option>
-                          <option value="5">6</option>
-                          <option value="6">7</option>
-                          <option value="7">8</option>
-                          <option value="8">9</option>
-                          <option value="9">10</option>
-                          <option value="10">11</option>
-                          <option value="11">12</option>
-                          <option value="12">13</option>
+                        <select className='animalForm_selectAge' id='monthSelect'>
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
                         </select>
                         <label className='selectLabel' htmlFor='monthSelect'>Месяцев</label>
                       </div>
@@ -221,7 +229,11 @@ export function Home() {
               <Grid container spacing={3}>
                 <Grid item xs={1}></Grid>
                 <Grid item xs={4}>
-                  <a href='/'><img src='loadAnimal.svg' className='loadAnimal' ></img></a>
+                    <a href='/'>
+                      <button className='blackActionButton'>
+                        Загрузить объявление
+                      </button>
+                    </a>
                 </Grid>
                 <Grid item xs={7}></Grid>
               </Grid>

@@ -78,7 +78,8 @@
 /* filter list start */
 
 .listOfAnimals {
-    height: 1100px;
+    height: auto;
+    margin-bottom: 50px;
     background-color: #F5ECE3;
 }
 
